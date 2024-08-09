@@ -20,6 +20,14 @@
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
+
+.padding-y {
+  @apply py-4;
+}
+
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
 /* END: General styles */
 
 /* START: Hero styles */
@@ -63,3 +71,18 @@
   @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
 }
 /* END: Footer styles */
+
+/* START: Home styles */
+
+.home__text-container {
+  @apply flex flex-col items-start justify-start gap-y-2.5 text-black-100;
+}
+
+.home__filters {
+  @apply mt-12 w-full flex justify-between items-center flex-wrap gap-5;
+}
+
+.home__filter-container {
+  @apply flex justify-start flex-wrap items-center gap-2;
+}
+/* END: Home styles */
